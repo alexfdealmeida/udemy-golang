@@ -1,3 +1,7 @@
+go version
+
+go env
+
 go run name.go
 
 # Gerar arquivo go.mod
