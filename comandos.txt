@@ -1,0 +1,15 @@
+go run name.go
+
+# Gerar arquivo go.mod
+go mod init module-name
+
+go build
+
+go install
+
+# Adicionar um pacote externo
+go get github.com/badoux/checkmail
+go get github.com/urfave/cli
+
+# Remover dependencias de pacotes que nao estao sendo utilizados
+go mod tidy
