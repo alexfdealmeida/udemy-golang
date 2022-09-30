@@ -7,5 +7,5 @@ Para obter uma cópia local, devidamente instalada e configurada, siga as instru
 ## Clonagem
 
 ```sh
-git clone https://github.com/cursos-alex/udemy-golang.git
+git clone https://github.com/alexfdealmeida/udemy-golang.git
 ```
