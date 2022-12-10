@@ -1,0 +1,28 @@
+{
+  "name": "udemy-golang",
+  "version": "1.0.0",
+  "description": "Repositório destinado ao curso \"Aprenda Golang do zero\" da Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexfdealmeida/udemy-golang.git"
+  },
+  "author": "alex.almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexfdealmeida/udemy-golang/issues"
+  },
+  "homepage": "https://github.com/alexfdealmeida/udemy-golang#readme",
+  "devDependencies": {
+    "husky": "^4.3.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./copy-git-hooks.sh --update-only-git-hooks",
+      "post-checkout": "./copy-git-hooks.sh --update-only-git-hooks"
+    }
+  }
+}
